@@ -1,0 +1,200 @@
+/* selecciona todo de manera universal */
+* {
+    /*QUITAMOS EL MARGEN INVISIBLE QUE VIENE POR DEFECTO*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Asegura que el padding no rompa los tamaños */
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+header {
+    padding: 10px 20px;
+    min-height: 50px; /* MINIMO DE ALTURA  */
+    background-color:  white;
+    border-bottom: 3px solid #CFCFCF; /* LINEA DEBAJO DEL HEADER */
+    color: black;
+}
+
+a {
+
+    text-decoration: none; /* Quita el subrayado feo */
+    color: inherit; /* Hereda el color del padre */
+
+}
+
+.medio {
+
+    text-align: center;
+
+
+}
+
+.barra-header {
+
+    display: flex; /* LE DECIMOS QUE PONGA A TODOS LOS HIJOS EN HORIZONTAL*/
+
+    align-items: center; /* centra todo de manera vertical*/
+
+    gap: 10px; /* separacion entre textos*/ 
+
+    justify-content: space-between; /* Separa los dos extremos */
+
+
+}
+
+.logo h2 {
+
+    font-size: 22px; /* TAMAÑO EN PIXELES */
+
+}
+
+.logo span {
+
+    color:  #27E4F5; 
+
+}
+
+.sobre-mi-seccion {
+
+    display: flex; /* LE DECIMOS QUE PONGA A TODOS LOS HIJOS EN HORIZONTAL*/
+
+    gap: 70px; /* separacion entre textos*/ 
+
+    margin-top: 50px;
+
+    border-bottom: 3px solid #CFCFCF;
+
+    padding-bottom: 50px;
+
+}
+
+.foto-perfil {
+
+
+    border-radius: 50%; /*PARA QUE LA IMAGEN SEA REDONDA*/
+
+    width: 250px; /*TAMAÑO*/
+
+    height: auto; /*PARA QUE NO SE APLASTE AL SER RESCALADA*/
+
+    margin-left: 50px;
+
+    margin-bottom: 50px;
+
+
+
+}
+
+.foto-github {
+
+    border-radius: 50%; /*PARA QUE LA IMAGEN SEA REDONDA*/
+
+    width: 50px; /*TAMAÑO*/
+
+    height: auto; /*PARA QUE NO SE APLASTE AL SER RESCALADA*/
+
+
+
+}
+
+.subtitulo{
+
+    padding-top: 10px;
+
+
+    color: #27E4F5;
+
+    font-size: 30px;
+
+    font-family: Fredoka, sans-serif; /*FUENTE DE RESPALDO POR SI ACASO*/
+
+    font-weight: 700;
+
+    justify-content: center;
+
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2); /*SOMBREADO DEL TEXTO*/
+
+}
+
+.mis-proyectos-seccion {
+
+    display: flex; /* LE DECIMOS QUE PONGA A TODOS LOS HIJOS EN HORIZONTAL*/
+
+    gap: 70px; /* separacion entre textos*/ 
+
+    justify-content: center;
+
+    margin-top: 50px;
+
+    border-bottom: 3px solid #CFCFCF;
+
+    padding-bottom: 50px;
+
+}
+
+.contactame-seccion {
+
+    gap: 10px;
+
+    justify-content: center;
+
+    margin-top: 50px;
+
+    border-bottom: 3px solid #CFCFCF;
+
+    display: flex;
+
+    align-items: center;
+
+    padding-bottom: 50px;
+
+}
+
+
+.caja {
+
+    border: 1px solid  #CFCFCF;             /* BORDE */
+    border-radius: 12px;                   /* ESQUINAS REDONDIADAS */
+    max-width: 320px;                      /* LIMITE DE LA CAJA*/
+    
+    /* SOMBRA DE LA CAJA*/
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+
+    margin-bottom: 50px;
+
+}
+
+.caja-cabecera {
+    background-color: #0099ff;           /* El color azul de tu dibujo */
+    border-bottom: 3px solid #111827;     /* La línea divisoria negra intermedia */
+    padding: 14px 20px;                  /* Relleno interno del título */
+    text-align: center;
+}
+
+.caja-cuerpo {
+
+    padding: 24px;
+    text-align: justify;
+
+}
+
+
+.presentacion-texto p {
+  text-align: justify; /* JUSTIFICADO*/
+  line-height: 1.6;     /* INTERLINEADO*/
+  max-width: 550px;     /* LIMITE DEL ANCHO DEL BLOQUE*/
+}
+
+.presentacion-texto strong {
+  color: #1a202c;          /* NEGRITA*/
+  font-weight: 600;
+}
+
+.pie-pagina {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border-top: 1px solid #dee2e6;
+  font-size: 14px;
+  color: #6c757d;
+}
